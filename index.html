@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="form-register">
+        <h4>Formulario Registro</h4>
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder="agrege su nombre" required>
+        <input class="controls" type="email" name="correo" id="correo" placeholder="agrege su apellido" required>
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder="agrege su correo electronico" required>
+        <input class="controls" type="password" name="correo" id="correo" placeholder="agrege una contraseña" required>
+        <div class="cargos">
+            <label>Selecciona tu cargo</label>
+           <select id="dropdown">
+            <option checkbox="" disabled selected value="">selecciona una opcion</option>
+            <option class="opcion" name="cargo">Desarrollador Front End</option>
+            <option class="opcion" name="cargo">Desarrollador Back End</option>
+            <option class="opcion" name="cargo">Desarrollador Full Stack</option>
+           </select> 
+        </div>
+        
+        <p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
+        <input class="botons" type="submit" value="Registrar">
+        <p><a href="#">¿Ya tengo cuenta?</a></p>
+    </section>
+
+</body>
+</html>
