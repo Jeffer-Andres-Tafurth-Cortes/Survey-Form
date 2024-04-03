@@ -8,12 +8,12 @@
 </head>
 <body>
     
-    <section class="form-register">
+    <form class="form-register" id="formulario" name="myForm">
         <h4>Formulario Registro</h4>
-        <input class="controls" type="text" name="nombres" id="nombres" placeholder="agrege su nombre" required>
-        <input class="controls" type="email" name="correo" id="correo" placeholder="agrege su apellido" required>
-        <input class="controls" type="text" name="nombres" id="nombres" placeholder="agrege su correo electronico" required>
-        <input class="controls" type="password" name="correo" id="correo" placeholder="agrege una contraseña" required>
+        Nombre:<input class="controls" type="text" name="nombre" id="nombres" placeholder="agrege su nombre" required>
+        Apellido:<input class="controls" type="text" name="correo" id="correo" placeholder="agrege su apellido" required>
+        Correo electronico:<input class="controls" type="email" name="nombres" id="correo" placeholder="agrege su correo electronico" required>
+        Contraseña:<input class="controls" type="password" name="correo" id="contraseña" placeholder="agrege una contraseña" required>
         <div class="cargos">
             <label>Selecciona tu cargo</label>
            <select id="dropdown">
@@ -27,7 +27,8 @@
         <p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
         <input class="botons" type="submit" value="Registrar">
         <p><a href="#">¿Ya tengo cuenta?</a></p>
-    </section>
+    </form>
 
+    <script src="script.js"></script>
 </body>
 </html>
